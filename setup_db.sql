@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS solar_raw(
+	id INTEGER PRIMARY KEY AUTOINCREMENT,
+	measurement_time TIMESTAMP ,
+	voltage REAL
+);
